@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuis pemograman web</title>
+</head>
+<body>
+    <h2 align="center">Quis pemograman web</h2>
+     <p>
+        <from method="POST">
+        <div class="menu" align="center">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="list_data.html">List Jurusan</a></button>
+            <button><a href="input.html">Input Data</a></button>
+            <button><a href="tabel.data.html">Tampil Data</a></button>
+            <button><a href="about.html">About</a></button>
+        </div>
+        </from>
+    </P>
+    <from action="rental.php method="POST">
+        <fieldset>
+            <table>
+            <h4><b>Rental Mobil</b></h4>
+            <tr>
+                <td><label>No. indetitas</label></td>
+                <td><input type="text">
+            </tr>
+            <tr>
+                <td><label>Nama Lengkap</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>No.Hp</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label>Alamat</label></td>
+                <td><textarea nama="Alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Jenis Mobil</label></td>
+                <td>
+                    <select nama="jenis mobil">
+                    <option value="Toyota Avanza">Toyota Avanza</option>
+                    <option value="Sport Sedan">Sport Sedan</option>
+                    <option value="Fortuner">Fortuner</option>
+                    <option value="civic">Civic</option>
+                </select> 
+                </td>
+            </tr>
+            <tr>
+                <td><label>Type Layanan</label></td>
+                <td><input type="radio" name="Type_Layanan" value="Lepas_kunci">Lepas Kunci</td>
+                <td><input type="radio" name="Type_Layanan" value="Dengan_sopir">Dengan Sopir</td>
+            </tr>
+            <tr>
+                <td><label>Tanggal Sewa</label></td>
+                <td><input type="date" nama="tanggal"></td>
+                <td>s/d</td>
+                <td><input type="date"nama="tanggal"></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="submit" name="submit" value="submit"></td>
+                <td align="center"><input type="submit" name="batal" value="batal"></td>
+            </tr>
+            </table>
+        </fieldset>
+    </from>
+</body>
+</html>
